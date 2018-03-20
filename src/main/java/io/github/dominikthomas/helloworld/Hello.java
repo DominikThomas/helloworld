@@ -1,8 +1,9 @@
-package com.dominikthomas.helloworld;
+package io.github.dominikthomas.helloworld;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import com.dominikthomas.helloworld.services.HelloWorldService; 
+
+import io.github.dominikthomas.helloworld.services.HelloWorldService; 
 
 public class Hello {
 	
@@ -11,7 +12,7 @@ public class Hello {
  
 		// loading the definitions from the given XML file
 		ApplicationContext context = new ClassPathXmlApplicationContext(
-				"applicationContext.xml");
+				"helloworld/applicationContext.xml");
  
 		HelloWorldService service = (HelloWorldService) context
 				.getBean("helloWorldService");

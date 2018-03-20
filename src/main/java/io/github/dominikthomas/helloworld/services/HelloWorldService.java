@@ -1,4 +1,4 @@
-package com.dominikthomas.helloworld.services;
+package io.github.dominikthomas.helloworld.services;
 import org.springframework.stereotype.Service;
 
 

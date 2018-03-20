@@ -8,7 +8,7 @@
 	<context:component-scan base-package="com.dominikthomas.examples" />
  
 	<bean id="helloWorldService"
-		class="com.dominikthomas.helloworld.services.HelloWorldService">
+		class="io.github.dominikthomas.helloworld.services.HelloWorldService">
 		<property name="name" value="Dominik Thomas" />
 	</bean>
 </beans>
